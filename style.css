@@ -2,6 +2,7 @@
 *{
  margin: 0px;
  padding: 0px;
+ vertical-align: top;
 }
 #wrapper{
  width: 950px;
@@ -12,22 +13,26 @@
 #header{
  height: 150px;
  background-color: green;
+ margin-bottom: 20px;
 }
 #navigation{
  height: 300px;
  width: 200px;
  background-color: blue;
  display: inline-block;
- margin-bottom: 54px;
+ /*margin-bottom: 54px;*/
+ vertical-align: top;
 }
 #main_content{
  height: 400px;
  width: 700px;
  background-color: red;
  display: inline-block;
- margin-top: 20px;
+/* margin-top: 20px;*/
  margin-left: 25px;
  padding: 10px;
+ vertical-align: top;
+
 }
 .subcontents{
  height: 200px;
@@ -40,6 +45,6 @@
  height: 120px;
  width: 660px;
  background-color: purple;
- margin-left: 10px;
+ margin-left: 15px;
  display: inline-block;
 }
